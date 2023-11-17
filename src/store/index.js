@@ -1,10 +1,11 @@
-import { createStore, combineReducers } from "redux";
-import minecraftReducer from "./reducers/minecraftReducer";
+import { configureStore } from "@reduxjs/toolkit";
 
-const rootReducer = combineReducers({
-    minecraftReducer,
+import counterReducer from "./counterSlice";
+
+const store = configureStore({
+    reducer: {
+        counter: counterReducer,
+    },
 });
-
-const store = createStore(rootReducer);
 
 export default store;

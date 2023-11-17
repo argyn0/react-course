@@ -1,0 +1,26 @@
+.counter {
+    margin: 2rem;
+    width: 10rem;
+    height: 18rem;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    border: 1px solid black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.button {
+    padding: 1rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    border-radius: 0.8rem;
+}
+
+.value {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
