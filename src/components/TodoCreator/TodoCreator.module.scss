@@ -1,0 +1,29 @@
+.TodoCreator {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 43rem;
+    height: 13.125rem;
+    background-color: white;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    padding: 1rem;
+    .input {
+        margin: auto;
+        padding-left: 15px;
+        font-family: sans-serif;
+        width: 100%;
+        height: 3rem;
+        border-radius: 5px;
+        background-color: rgb(230, 230, 230);
+    }
+
+    .button {
+        margin-left: auto;
+        
+        font-weight: bold;
+        font-family: sans-serif;
+        border-radius: 5px;
+    }
+}

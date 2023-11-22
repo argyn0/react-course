@@ -1,9 +1,14 @@
 .header {
+    position: relative;
     width: auto;
-    height: 65px;
-    background-color: antiquewhite;
-}
-.header h3 {
-    color: black;
-    padding-left: 50px;
+    height: 4rem;
+    background-color: white;
+    .header_h3 {
+        position: absolute;
+        color: black;
+        font-family: sans-serif;
+        left: 4.75rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
